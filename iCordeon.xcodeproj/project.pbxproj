@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076149C3EAC3664F07510BC5 /* libPods-iCordeon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3DD5268164F2E5BAA13006 /* libPods-iCordeon.a */; };
+		7A485A9522202638004A4864 /* AccordionMIDIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A485A9422202638004A4864 /* AccordionMIDIPlayer.swift */; };
+		7A485A9722203123004A4864 /* SoundBoxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A485A9622203123004A4864 /* SoundBoxDelegate.swift */; };
+		7A485A9922203211004A4864 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A485A9822203211004A4864 /* Note.swift */; };
+		7A967C44221D7D0E00D90B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C43221D7D0E00D90B6F /* AppDelegate.swift */; };
+		7A967C46221D7D0E00D90B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C45221D7D0E00D90B6F /* ViewController.swift */; };
+		7A967C49221D7D0E00D90B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A967C47221D7D0E00D90B6F /* Main.storyboard */; };
+		7A967C4C221D7D0E00D90B6F /* iCordeon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C4A221D7D0E00D90B6F /* iCordeon.xcdatamodeld */; };
+		7A967C4E221D7D0F00D90B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A967C4D221D7D0F00D90B6F /* Assets.xcassets */; };
+		7A967C51221D7D0F00D90B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A967C4F221D7D0F00D90B6F /* LaunchScreen.storyboard */; };
+		7A967C5C221D7D0F00D90B6F /* iCordeonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C5B221D7D0F00D90B6F /* iCordeonTests.swift */; };
+		7A967C67221D7D0F00D90B6F /* iCordeonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C66221D7D0F00D90B6F /* iCordeonUITests.swift */; };
+		7A967C7D221D82BF00D90B6F /* BoxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C7C221D82BF00D90B6F /* BoxService.swift */; };
+		7A967C83221D83E000D90B6F /* SoundBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C82221D83E000D90B6F /* SoundBox.swift */; };
+		7A967C89221DB9DE00D90B6F /* BoxServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A967C88221DB9DE00D90B6F /* BoxServiceDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A967C58221D7D0F00D90B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A967C38221D7D0E00D90B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A967C3F221D7D0E00D90B6F;
+			remoteInfo = iCordeon;
+		};
+		7A967C63221D7D0F00D90B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A967C38221D7D0E00D90B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A967C3F221D7D0E00D90B6F;
+			remoteInfo = iCordeon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67064B603D04F434256323E4 /* Pods-iCordeon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCordeon.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCordeon/Pods-iCordeon.release.xcconfig"; sourceTree = "<group>"; };
+		7A485A9422202638004A4864 /* AccordionMIDIPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionMIDIPlayer.swift; sourceTree = "<group>"; };
+		7A485A9622203123004A4864 /* SoundBoxDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoxDelegate.swift; sourceTree = "<group>"; };
+		7A485A9822203211004A4864 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7A967C40221D7D0E00D90B6F /* iCordeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCordeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A967C43221D7D0E00D90B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A967C45221D7D0E00D90B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A967C48221D7D0E00D90B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A967C4B221D7D0E00D90B6F /* iCordeon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCordeon.xcdatamodel; sourceTree = "<group>"; };
+		7A967C4D221D7D0F00D90B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A967C50221D7D0F00D90B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A967C52221D7D0F00D90B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A967C57221D7D0F00D90B6F /* iCordeonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCordeonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A967C5B221D7D0F00D90B6F /* iCordeonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCordeonTests.swift; sourceTree = "<group>"; };
+		7A967C5D221D7D0F00D90B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A967C62221D7D0F00D90B6F /* iCordeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCordeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A967C66221D7D0F00D90B6F /* iCordeonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCordeonUITests.swift; sourceTree = "<group>"; };
+		7A967C68221D7D0F00D90B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A967C7C221D82BF00D90B6F /* BoxService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxService.swift; sourceTree = "<group>"; };
+		7A967C82221D83E000D90B6F /* SoundBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBox.swift; sourceTree = "<group>"; };
+		7A967C88221DB9DE00D90B6F /* BoxServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxServiceDelegate.swift; sourceTree = "<group>"; };
+		8D3DD5268164F2E5BAA13006 /* libPods-iCordeon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCordeon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E07C2660B8FFA6220B7D99 /* Pods-iCordeon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCordeon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCordeon/Pods-iCordeon.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A967C3D221D7D0E00D90B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076149C3EAC3664F07510BC5 /* libPods-iCordeon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A967C54221D7D0F00D90B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A967C5F221D7D0F00D90B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C9483B19D040BCAD262F0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D3DD5268164F2E5BAA13006 /* libPods-iCordeon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A0DC872FA55F1610C099FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92E07C2660B8FFA6220B7D99 /* Pods-iCordeon.debug.xcconfig */,
+				67064B603D04F434256323E4 /* Pods-iCordeon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A967C37221D7D0E00D90B6F = {
+			isa = PBXGroup;
+			children = (
+				7A967C42221D7D0E00D90B6F /* iCordeon */,
+				7A967C5A221D7D0F00D90B6F /* iCordeonTests */,
+				7A967C65221D7D0F00D90B6F /* iCordeonUITests */,
+				7A967C41221D7D0E00D90B6F /* Products */,
+				7A0DC872FA55F1610C099FD9 /* Pods */,
+				17C9483B19D040BCAD262F0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A967C41221D7D0E00D90B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A967C40221D7D0E00D90B6F /* iCordeon.app */,
+				7A967C57221D7D0F00D90B6F /* iCordeonTests.xctest */,
+				7A967C62221D7D0F00D90B6F /* iCordeonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A967C42221D7D0E00D90B6F /* iCordeon */ = {
+			isa = PBXGroup;
+			children = (
+				7A967C43221D7D0E00D90B6F /* AppDelegate.swift */,
+				7A967C45221D7D0E00D90B6F /* ViewController.swift */,
+				7A967C47221D7D0E00D90B6F /* Main.storyboard */,
+				7A967C4D221D7D0F00D90B6F /* Assets.xcassets */,
+				7A967C4F221D7D0F00D90B6F /* LaunchScreen.storyboard */,
+				7A967C52221D7D0F00D90B6F /* Info.plist */,
+				7A967C4A221D7D0E00D90B6F /* iCordeon.xcdatamodeld */,
+				7A967C7C221D82BF00D90B6F /* BoxService.swift */,
+				7A967C82221D83E000D90B6F /* SoundBox.swift */,
+				7A967C88221DB9DE00D90B6F /* BoxServiceDelegate.swift */,
+				7A485A9622203123004A4864 /* SoundBoxDelegate.swift */,
+				7A485A9822203211004A4864 /* Note.swift */,
+				7A485A9422202638004A4864 /* AccordionMIDIPlayer.swift */,
+			);
+			path = iCordeon;
+			sourceTree = "<group>";
+		};
+		7A967C5A221D7D0F00D90B6F /* iCordeonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A967C5B221D7D0F00D90B6F /* iCordeonTests.swift */,
+				7A967C5D221D7D0F00D90B6F /* Info.plist */,
+			);
+			path = iCordeonTests;
+			sourceTree = "<group>";
+		};
+		7A967C65221D7D0F00D90B6F /* iCordeonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A967C66221D7D0F00D90B6F /* iCordeonUITests.swift */,
+				7A967C68221D7D0F00D90B6F /* Info.plist */,
+			);
+			path = iCordeonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A967C3F221D7D0E00D90B6F /* iCordeon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A967C6B221D7D0F00D90B6F /* Build configuration list for PBXNativeTarget "iCordeon" */;
+			buildPhases = (
+				72866AB82C285F6AFBB64001 /* [CP] Check Pods Manifest.lock */,
+				7A967C3C221D7D0E00D90B6F /* Sources */,
+				7A967C3D221D7D0E00D90B6F /* Frameworks */,
+				7A967C3E221D7D0E00D90B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCordeon;
+			productName = iCordeon;
+			productReference = 7A967C40221D7D0E00D90B6F /* iCordeon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A967C56221D7D0F00D90B6F /* iCordeonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A967C6E221D7D0F00D90B6F /* Build configuration list for PBXNativeTarget "iCordeonTests" */;
+			buildPhases = (
+				7A967C53221D7D0F00D90B6F /* Sources */,
+				7A967C54221D7D0F00D90B6F /* Frameworks */,
+				7A967C55221D7D0F00D90B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A967C59221D7D0F00D90B6F /* PBXTargetDependency */,
+			);
+			name = iCordeonTests;
+			productName = iCordeonTests;
+			productReference = 7A967C57221D7D0F00D90B6F /* iCordeonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A967C61221D7D0F00D90B6F /* iCordeonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A967C71221D7D0F00D90B6F /* Build configuration list for PBXNativeTarget "iCordeonUITests" */;
+			buildPhases = (
+				7A967C5E221D7D0F00D90B6F /* Sources */,
+				7A967C5F221D7D0F00D90B6F /* Frameworks */,
+				7A967C60221D7D0F00D90B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A967C64221D7D0F00D90B6F /* PBXTargetDependency */,
+			);
+			name = iCordeonUITests;
+			productName = iCordeonUITests;
+			productReference = 7A967C62221D7D0F00D90B6F /* iCordeonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A967C38221D7D0E00D90B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Augusto Queiroz";
+				TargetAttributes = {
+					7A967C3F221D7D0E00D90B6F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7A967C56221D7D0F00D90B6F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A967C3F221D7D0E00D90B6F;
+					};
+					7A967C61221D7D0F00D90B6F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A967C3F221D7D0E00D90B6F;
+					};
+				};
+			};
+			buildConfigurationList = 7A967C3B221D7D0E00D90B6F /* Build configuration list for PBXProject "iCordeon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A967C37221D7D0E00D90B6F;
+			productRefGroup = 7A967C41221D7D0E00D90B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A967C3F221D7D0E00D90B6F /* iCordeon */,
+				7A967C56221D7D0F00D90B6F /* iCordeonTests */,
+				7A967C61221D7D0F00D90B6F /* iCordeonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A967C3E221D7D0E00D90B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A967C51221D7D0F00D90B6F /* LaunchScreen.storyboard in Resources */,
+				7A967C4E221D7D0F00D90B6F /* Assets.xcassets in Resources */,
+				7A967C49221D7D0E00D90B6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A967C55221D7D0F00D90B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A967C60221D7D0F00D90B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72866AB82C285F6AFBB64001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCordeon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A967C3C221D7D0E00D90B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A485A9722203123004A4864 /* SoundBoxDelegate.swift in Sources */,
+				7A967C46221D7D0E00D90B6F /* ViewController.swift in Sources */,
+				7A967C7D221D82BF00D90B6F /* BoxService.swift in Sources */,
+				7A967C89221DB9DE00D90B6F /* BoxServiceDelegate.swift in Sources */,
+				7A967C83221D83E000D90B6F /* SoundBox.swift in Sources */,
+				7A485A9922203211004A4864 /* Note.swift in Sources */,
+				7A485A9522202638004A4864 /* AccordionMIDIPlayer.swift in Sources */,
+				7A967C4C221D7D0E00D90B6F /* iCordeon.xcdatamodeld in Sources */,
+				7A967C44221D7D0E00D90B6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A967C53221D7D0F00D90B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A967C5C221D7D0F00D90B6F /* iCordeonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A967C5E221D7D0F00D90B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A967C67221D7D0F00D90B6F /* iCordeonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A967C59221D7D0F00D90B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A967C3F221D7D0E00D90B6F /* iCordeon */;
+			targetProxy = 7A967C58221D7D0F00D90B6F /* PBXContainerItemProxy */;
+		};
+		7A967C64221D7D0F00D90B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A967C3F221D7D0E00D90B6F /* iCordeon */;
+			targetProxy = 7A967C63221D7D0F00D90B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A967C47221D7D0E00D90B6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A967C48221D7D0E00D90B6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A967C4F221D7D0F00D90B6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A967C50221D7D0F00D90B6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A967C69221D7D0F00D90B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A967C6A221D7D0F00D90B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A967C6C221D7D0F00D90B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E07C2660B8FFA6220B7D99 /* Pods-iCordeon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S82388Q6W;
+				INFOPLIST_FILE = iCordeon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustoqueiroz.iCordeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A967C6D221D7D0F00D90B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67064B603D04F434256323E4 /* Pods-iCordeon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S82388Q6W;
+				INFOPLIST_FILE = iCordeon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustoqueiroz.iCordeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A967C6F221D7D0F00D90B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S82388Q6W;
+				INFOPLIST_FILE = iCordeonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustoqueiroz.iCordeonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCordeon.app/iCordeon";
+			};
+			name = Debug;
+		};
+		7A967C70221D7D0F00D90B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S82388Q6W;
+				INFOPLIST_FILE = iCordeonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustoqueiroz.iCordeonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCordeon.app/iCordeon";
+			};
+			name = Release;
+		};
+		7A967C72221D7D0F00D90B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S82388Q6W;
+				INFOPLIST_FILE = iCordeonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustoqueiroz.iCordeonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iCordeon;
+			};
+			name = Debug;
+		};
+		7A967C73221D7D0F00D90B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S82388Q6W;
+				INFOPLIST_FILE = iCordeonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustoqueiroz.iCordeonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iCordeon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A967C3B221D7D0E00D90B6F /* Build configuration list for PBXProject "iCordeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A967C69221D7D0F00D90B6F /* Debug */,
+				7A967C6A221D7D0F00D90B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A967C6B221D7D0F00D90B6F /* Build configuration list for PBXNativeTarget "iCordeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A967C6C221D7D0F00D90B6F /* Debug */,
+				7A967C6D221D7D0F00D90B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A967C6E221D7D0F00D90B6F /* Build configuration list for PBXNativeTarget "iCordeonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A967C6F221D7D0F00D90B6F /* Debug */,
+				7A967C70221D7D0F00D90B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A967C71221D7D0F00D90B6F /* Build configuration list for PBXNativeTarget "iCordeonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A967C72221D7D0F00D90B6F /* Debug */,
+				7A967C73221D7D0F00D90B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A967C4A221D7D0E00D90B6F /* iCordeon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A967C4B221D7D0E00D90B6F /* iCordeon.xcdatamodel */,
+			);
+			currentVersion = 7A967C4B221D7D0E00D90B6F /* iCordeon.xcdatamodel */;
+			path = iCordeon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A967C38221D7D0E00D90B6F /* Project object */;
+}

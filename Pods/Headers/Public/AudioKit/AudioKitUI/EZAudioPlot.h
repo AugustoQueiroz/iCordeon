@@ -1,0 +1,1 @@
+../../../../AudioKit/iOS/AudioKitUI.framework/Headers/EZAudioPlot.h
